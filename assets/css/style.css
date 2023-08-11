@@ -74,9 +74,7 @@ a {
 /*Iniciamos portada*/
 
 .cover {
-
     flex-shrink: 0;
-
     font-family: var(--texto-general);
 }
 
@@ -110,38 +108,97 @@ a {
     display: flex;
     flex-direction: row;
     font-family: var(--texto-general);
-    height: 26rem;
+    height: 30rem;
     flex-shrink: 0;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
 }
 
-.about-text{
+.about-text {
     display: flex;
     flex-direction: column;
+}
+
+.about-text h1 {
     text-align: center;
-}
-
-.about-text .text1{
-    font-size: 2.375rem;
-    font-style: normal;
+    font-size: 3rem;
     font-weight: 400;
-
+    padding-bottom: 20px;
 }
 
-.about-text .text2 {
-    padding: 20px;
+.about-text p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 20px;
     text-align: justify;
-    font-size: 0.875rem;
-    font-style: normal;
+    text-align: justify;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
-.about-text .text2 .text3 {
-    padding: 20px;
-    text-align: justify;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
+.about-text ul {
+    padding-left: 10%;
+    padding-bottom: 20px;
+    list-style-type: square;
+    line-height: 1.5;
 }
+
+/* Servicios */
+
+.servicios {
+    padding-bottom: 20px;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: var(--texto-general);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.servicios-text h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.opciones-servicios {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-ser {
+    width: 35.125rem;
+    height: 35.6875rem;
+}
+
+.opciones-servicios .text-venta {
+    width: 35.125rem;
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 400;
+    top: 80%;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.opciones-servicios .text-renta {
+    width: 35.125rem;
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 400;
+    top: 80%;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+/* Desarrolllos Exclusivos */
+
