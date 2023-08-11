@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #512161;
+}
+
+:root {
+    --lineas-verdes: #08d85a;
+    --texto-general: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+
+.cabecera {
+    font-family: var(--texto-general);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.flex-contenedor {
+
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 64rem;
+    height: 8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    flex-shrink: 0;
+    padding-left: 4rem;
+}
+
+.logo .img-logo {
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.menu-cabecera {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+    padding-right: 30px;
+}
+
+
+/*Iniciamos portada*/
+
+.cover {
+
+    flex-shrink: 0;
+
+    font-family: var(--texto-general);
+}
+
+
+.texto h1 {
+    color: #512161;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.75rem;
+    position: absolute;
+    top: 160px;
+    left: 35px;
+
+}
+
+.img-cover img {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+}
+
+/*Nosotros*/
+
+.about {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--texto-general);
+    height: 26rem;
+    flex-shrink: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-text .text1{
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.about-text .text2 {
+    padding: 20px;
+    text-align: justify;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-text .text2 .text3 {
+    padding: 20px;
+    text-align: justify;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
