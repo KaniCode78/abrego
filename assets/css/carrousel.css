@@ -19,6 +19,16 @@
     align-items: center;
 }
 
+.desarrollos .text_desarrollo{
+    font-family: var(--texto-general);
+    font-size: 1.875rem;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+
 
 
 /* Slideshow container */
@@ -34,6 +44,14 @@
 .mySlides {
     display: none;
 }
+
+.mySlides .img-des{
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+}
+
+
 
 /* Next & previous buttons */
 .prev,
@@ -69,13 +87,14 @@
 /* Caption text */
 .text {
     color: #512161;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
     font-family: var(--texto-general);
+    background-color: #97B3A5;
 }
 
 /* Number text (1/3 etc) */

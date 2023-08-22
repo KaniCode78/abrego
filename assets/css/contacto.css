@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --texto-general: 'Montserrat', sans-serif;
+}
+
+
+.formulario {
+
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.formulario p {
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario-principal {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+.formulario-principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vid-izquierda video {
+    border-radius: 10%;
+    border: #08d85a solid;
+}
+
+.formulario-principal form {
+
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #d80839;
+}
+
+input[type="submit"] {
+    background-color: #08d85a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #08d85a;
+}
+
