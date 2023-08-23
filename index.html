@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/contacto.css">
     <link rel="stylesheet" href="./assets/css/carrousel.css">
     <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
     <title>Abrego Real State</title>
+
 </head>
 
 <body>
     <header class="cabecera">
-        <div class="flex-contenedor">
             <div class="logo">
-                <img class="img-logo" src="./assets/img/Abrego Ver1 Logo.svg" alt="logo abrego">
+                <img src="./assets/img/Abrego Ver1 Logo.svg" alt="logo abrego">
             </div>
-            <div class="menu-cabecera">
-                <nav class="menu">
+            <div class="menu">
+                <nav>
                     <a href="#">Home</a>
                     <a href="#">Desarrollo</a>
                     <a href="#">Servicios</a>
@@ -30,6 +31,8 @@
             </div>
         </div>
     </header>
+
+
     <!-- portada -->
 
     <section class="cover">
@@ -176,21 +179,40 @@
     </section>
 
     <section>
-        <div>
-            <p>¿Te gusto mi trabajo? No dudes en contactarme, platicame tu idea y logremos ese proyecto en conjunto.</p>
+        <div class="contacto">
+            <h1>Contactame para Atencion Personalizada</h1>
             <div class="formulario-principal">
 
-                <div class="form-derecha">
+                <div class="formulario">
+                    <h1>Deja tu mensaje</h1>
                     <form action="https://formsubmit.co/angeldanielrm@icloud.com" method="POST" /" method="POST">
                         <input type="text" id="nombre" name="nombre" placeholder="Nombre" required /><br />
                         <input type="email" id="email" name="email" placeholder="Email" required /><br />
-                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" /><br />
-                        <textarea id="mensaje" name="mensaje" placeholder="Tu idea aqui"></textarea><br />
+                        <input type="tel" id="tel" name="Celular" placeholder="# de Contacto" /><br />
+                        <textarea id="mensaje" name="mensaje" placeholder="Dejame tu mensaje"></textarea><br />
                         <input type="submit" value="Contactame" />
                     </form>
                 </div>
-                <div class="vid-izquierda">
-
+                <div class="redes">
+                    <h1>Nuestras Redes Sociales</h1>
+                    <div class="sides">
+                        <div class="redes-izq">
+                            <div>
+                                <img class="logo_social1" src="./assets/img/facecolor 1.png" alt="enlace facebook">
+                            </div>
+                            <div>
+                                <img class="logo_social" src="./assets/img/insta color 1.png" alt="enlace instagram">
+                            </div>
+                        </div>
+                        <div class="redes-der">
+                            <div>
+                                <img class="logo_social" src="./assets/img/emaii color 1.png" alt="enlace email">
+                            </div>
+                            <div>
+                                <img class="logo_social" src="./assets/img/wasa color 1.png" alt="enlace whatsapp">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,7 +222,20 @@
 
 
     <footer>
-
+        <div class="pie">
+            <div class="pie-ima">
+                <img src="./assets/img/Abrego Ver1 white.png" alt="">
+            </div>
+            <div class="pie-lista">
+                <ul>
+                    <li>Home</li>
+                    <li>Contacto</li>
+                    <li>Nosotros</li>
+                    <li>Servicios</li>
+                    <li>Desarrollos</li>
+                </ul>
+            </div>
+        </div>
 
     </footer>
 

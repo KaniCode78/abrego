@@ -2,7 +2,6 @@
 
 * {
     box-sizing: border-box;
-
 }
 
 :root {
@@ -11,19 +10,17 @@
 }
 
 
-.formulario {
-
+.contacto {
     padding: 10px;
     height: auto;
     width: 100%;
     justify-content: center;
-   
 }
 
-.formulario p {
+.contacto h1 {
     text-align: center;
-    padding: 20px;
 }
+
 
 .formulario-principal {
     display: flex;
@@ -31,22 +28,21 @@
     width: auto;
     padding: 20px;
     align-items: center;
-    background-color: rgba(0, 0, 0, 1);
 }
 
-
-.formulario-principal {
+.formulario {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
 }
 
-.vid-izquierda video {
-    border-radius: 10%;
-    border: #08d85a solid;
+.formulario h1{
+    padding-bottom: 8vh;
 }
 
 .formulario-principal form {
-
+    font-family: var(--texto-general);
     width: 500px;
     margin: 0 auto;
     text-align: left;
@@ -54,28 +50,79 @@
     border-radius: 5px;
 }
 
+
 input,
 textarea {
+    font-family: var(--texto-general);
     width: 100%;
     padding: 12px 20px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #97B3A5;
+    border-radius: 30px;
     box-sizing: border-box;
     font-size: 16px;
-    color: #d80839;
+    color: #512161;
 }
 
 input[type="submit"] {
-    background-color: #08d85a;
-    color: white;
+    background-color: #97B3A5;
+    color: #512161;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #08d85a;
+    background-color: #512161;
+    color: #97B3A5;
 }
 
+/* Lado Redes */
+
+.redes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.redes h1 {
+    padding-bottom: 15vh;
+}
+
+
+
+.sides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.redes .logo_social{
+    height: 90px ;
+    width: 90px;
+}
+
+.redes .logo_social1{
+    height: 90px ;
+    width: 84px;
+}
+
+.redes-izq {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+.redes-der {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 5vh;
+}
