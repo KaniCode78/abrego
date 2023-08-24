@@ -144,12 +144,13 @@ input[type="submit"]:hover {
         font-size: 1rem;
     }
 
-.formulario{
-    justify-content: center;
-    padding: 0%;
-}
+    .formulario {
+        justify-content: center;
+        padding: 0%;
 
-   
+    }
+
+
 
     .formulario input {
         font-size: .75rem;

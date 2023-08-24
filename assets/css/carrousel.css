@@ -10,7 +10,7 @@
     --texto-general: 'Montserrat', sans-serif;
 }
 
-.desarrollos{
+.desarrollos {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.desarrollos .text_desarrollo{
+.desarrollos .text_desarrollo {
     font-family: var(--texto-general);
     font-size: 1.875rem;
     text-align: center;
@@ -38,7 +38,7 @@
     display: none;
 }
 
-.mySlides .img-des{
+.mySlides .img-des {
     background-size: cover;
     height: 600px;
     width: 500px;
@@ -138,14 +138,14 @@
         font-size: 1.5rem;
     }
 
-        .text{
-            font-size: .75rem;
-        }
+    .text {
+        font-size: .75rem;
+    }
 
-        .mySlides .img-des{
-            background-size: cover;
-            height: 300px;
-            width: 200px;
-        }
+    .mySlides .img-des {
+        background-size: cover;
+        height: 300px;
+        width: 200px;
+    }
 
 }
