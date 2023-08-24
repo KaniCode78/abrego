@@ -145,12 +145,15 @@ input[type="submit"]:hover {
     }
 
     .formulario {
-        justify-content: center;
-        padding: 0%;
-
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
     }
 
-
+    .formulario form{
+        width: 300px;
+    }
 
     .formulario input {
         font-size: .75rem;
