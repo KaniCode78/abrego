@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .pie {
     border: aliceblue 5px solid;
@@ -64,5 +68,8 @@
     text-align: center;
 }
 
+.pie-lista a{
+    color: white;
+}
 
 }
