@@ -49,6 +49,10 @@ a {
     padding-bottom: 5px;
 }
 
+.pie-lista #lista_footer{
+    color: white;
+}
+
 @media (min-width: 320px) and (max-width: 479px) {
 .pie{
     display: flex;
