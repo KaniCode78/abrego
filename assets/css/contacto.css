@@ -130,12 +130,12 @@ input[type="submit"]:hover {
 @media (min-width: 320px) and (max-width: 479px) {
 
     .contacto #text-contacto {
-        border: #512161 5px solid;
+       
         font-size: 1.3rem;
     }
 
     .formulario-principal {
-        border: #512161 5px solid;
+       
         display: flex;
         flex-direction: column;
     }
