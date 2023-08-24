@@ -132,3 +132,20 @@
         opacity: 1
     }
 }
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .text_desarrollo h1 {
+        font-size: 1.5rem;
+    }
+
+        .text{
+            font-size: .75rem;
+        }
+
+        .mySlides .img-des{
+            background-size: cover;
+            height: 300px;
+            width: 200px;
+        }
+
+}

@@ -44,3 +44,24 @@
     font-size: 1.5rem;
     padding-bottom: 5px;
 }
+
+@media (min-width: 320px) and (max-width: 479px) {
+.pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie img{
+    padding: 20px;
+    height: 12vh;
+    width: 25vh;
+}
+
+.pie-lista li{
+    font-size: .75rem;
+    text-align: center;
+}
+
+
+}
