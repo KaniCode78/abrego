@@ -57,12 +57,20 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-   .about-text h1{
-    font-size: 1.5rem;
+    .about-text h1 {
+        font-size: 1.5rem;
 
-   }
-   .about-text p,ul {
-    font-size: .75rem;
-   }
-    
+    }
+
+    .about-text p {
+        font-size: .75rem;
+
+        text-align: center;
+    }
+
+    .about-text ul {
+        font-size: .75rem;
+        list-style-type: none;
+        text-align: center;
+    }
 }
