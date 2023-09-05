@@ -5,8 +5,6 @@
 
 }
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -17,7 +15,6 @@ a {
 
 
 .pie {
-    border: aliceblue 5px solid;
     display: flex;
     background-color: black;
     color: white;
@@ -32,14 +29,8 @@ a {
 
 
 .pie-ima img {
-    height: 147px;
-    width: 467px;
-
-}
-
-
-.pie-lista {
-    width: 40%;
+    height: 13.5vh;
+    width: 44vh;
 }
 
 .pie-lista li {
@@ -49,31 +40,48 @@ a {
     padding-bottom: 5px;
 }
 
-.pie-lista #lista_footer{
+.pie-lista a {
+    color: white;
+}
+
+
+
+.pie-lista ul {
     color: white;
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-.pie{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    .pie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pie img {
+        padding: 20px;
+        height: 12vh;
+        width: 25vh;
+    }
+
+    .pie-lista li {
+        font-size: .75rem;
+        text-align: center;
+    }
+
+    .pie-lista a {
+        color: white;
+    }
+
 }
 
-.pie img{
-    padding: 20px;
-    height: 12vh;
-    width: 25vh;
+.sign {
+    background-color: black;
 }
 
-.pie-lista li{
-    font-size: .75rem;
-    text-align: center;
-}
-
-.pie-lista a{
+.sign p {
+    padding-right: 2%;
+    text-align: right;
     color: white;
-}
-
+    font-size: .75rem;
 }

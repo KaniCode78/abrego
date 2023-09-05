@@ -4,7 +4,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    color: #512161;
 }
 
 :root {
@@ -15,101 +14,3 @@ a {
     text-decoration: none;
 }
 
-
-
-/* Servicios */
-
-.servicios {
-    padding-bottom: 20px;
-    height: 45rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    font-family: var(--texto-general);
-
-
-}
-
-.servicios-text h1 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 400;
-    padding-top: 5px;
-    padding-bottom: 30px;
-}
-
-.opciones-servicios {
-    position: relative;
-    display: inline-block;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.img-ser {
-    width: 35.125rem;
-    height: 35.6875rem;
-}
-
-.opciones-servicios .text-venta {
-    width: 35.125rem;
-    position: absolute;
-    font-size: 3rem;
-    font-weight: 400;
-    top: 80%;
-    align-items: center;
-    background-color: #D9D9D9;
-}
-
-.opciones-servicios .text-renta {
-    width: 35.125rem;
-    position: absolute;
-    font-size: 3rem;
-    font-weight: 400;
-    top: 80%;
-    align-items: center;
-    background-color: #D9D9D9;
-}
-
-
-/* Medias  */
-
-
-@media (min-width: 320px) and (max-width: 479px) {
-    .servicios {
-        padding: 0%;
-    }
-
-    .servicios-text h1 {
-        font-size: 1.5rem;
-    }
-
-    .opciones-servicios {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .opciones-servicios .img-ser {
-        height: 30vh;
-        width: 30vh;
-    }
-
-    .opciones-servicios .text-renta {
-        width: 6rem;
-        font-size: 1.5rem;
-        top: 40%;
-        align-items: center;
-        text-align: center;
-        background-color: #D9D9D9;
-    }
-
-    .opciones-servicios .text-venta {
-        width: 6rem;
-        font-size: 1.5rem;
-        top: 90%;
-        align-items: center;
-        background-color: #D9D9D9;
-    }
-}
