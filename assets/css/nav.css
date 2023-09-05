@@ -35,8 +35,9 @@ a {
 }
 
 .logo img {
-    width: 8rem;
-    height: 8rem;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 .menu {
@@ -58,48 +59,34 @@ a {
     margin: 8px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #97B3A5;
 }
 
 
 
 @media (min-width: 320px) and (max-width: 479px) {
-    header {
-        height: 3vh;
+    .cabecera {
+        height: 8.5vh;
         display: flex;
-        padding: 2px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
-    .logo {
+.logo{
+    width: 45vh;
+    padding: 10% 10% 10% 10%;
+}
+
+    .img-logo {
+        height: 12vh;
+        width: 25vh;
+    }
+
+    nav {
         display: none;
     }
 
-    .menu nav {
-        justify-content: flex-start;
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .menu a {
-        font-size: .8rem;
-
-    }
 }
 
-/* @media (min-width: 800px) and (max-width: 1024px){
-    header{
-  
-    padding: 0%;
-    margin: 0%;
-    }
-
-    .menu nav {
-        justify-content: space-around;
-        display: flex;
-        flex-direction: row;
-
-    }
-
-} */

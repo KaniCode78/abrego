@@ -50,21 +50,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 320px) and (max-width: 479px) {
     .img-cover img {
         height: 40vh;
@@ -79,10 +64,9 @@ a {
         font-style: normal;
         line-height: 0.75rem;
         position: absolute;
-        top: 50px;
-        left: 35px;
+        top: 90px;
+        left: 20px;
         padding-bottom: 12px;
-
     }
 
 }

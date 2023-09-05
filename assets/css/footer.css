@@ -44,13 +44,23 @@ a {
     color: white;
 }
 
-.pie-lista a:hover{
+.pie-lista a:hover {
     color: #97B3A5;
 }
 
-
 .pie-lista ul {
     color: white;
+}
+
+.sign {
+    background-color: black;
+}
+
+.sign p {
+    padding-right: 2%;
+    text-align: right;
+    color: white;
+    font-size: .75rem;
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -76,17 +86,7 @@ a {
 
     .pie-lista a {
         color: white;
-      
     }
 
-    .sign {
-        background-color: black;
-    }
 
-    .sign p {
-        padding-right: 2%;
-        text-align: right;
-        color: white;
-        font-size: .75rem;
-    }
 }
