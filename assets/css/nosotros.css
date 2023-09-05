@@ -25,6 +25,7 @@ a {
     font-family: var(--texto-general);
     height: 30rem;
     flex-shrink: 0;
+    width: auto;
 }
 
 .about-text {
@@ -33,6 +34,8 @@ a {
 }
 
 .about-text h1 {
+    padding-right: 20px;
+    font-family: var(--texto-general);
     text-align: center;
     font-size: 3rem;
     font-weight: 400;
@@ -42,7 +45,6 @@ a {
 .about-text p {
     padding-left: 5%;
     padding-right: 5%;
-    padding-left: 20px;
     padding-bottom: 20px;
     text-align: justify;
     font-size: 1.2rem;

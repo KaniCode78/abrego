@@ -18,12 +18,15 @@
     align-items: center;
 }
 
-.desarrollos .text_desarrollo {
+.desarrollos .text_desarrollos {
     font-family: var(--texto-general);
-    font-size: 1.875rem;
+    font-size: 3rem;
+    font-weight: 400;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
+
+
 
 
 /* Slideshow container */
