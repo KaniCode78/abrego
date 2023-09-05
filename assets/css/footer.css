@@ -44,6 +44,9 @@ a {
     color: white;
 }
 
+.pie-lista a:hover{
+    color: #97B3A5;
+}
 
 
 .pie-lista ul {
@@ -56,6 +59,7 @@ a {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        height: auto;
     }
 
     .pie img {
@@ -65,23 +69,24 @@ a {
     }
 
     .pie-lista li {
-        font-size: .75rem;
+        font-size: 1.5rem;
         text-align: center;
+        margin: 8px;
     }
 
     .pie-lista a {
         color: white;
+      
     }
 
-}
+    .sign {
+        background-color: black;
+    }
 
-.sign {
-    background-color: black;
-}
-
-.sign p {
-    padding-right: 2%;
-    text-align: right;
-    color: white;
-    font-size: .75rem;
+    .sign p {
+        padding-right: 2%;
+        text-align: right;
+        color: white;
+        font-size: .75rem;
+    }
 }

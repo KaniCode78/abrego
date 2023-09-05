@@ -11,7 +11,6 @@
     --texto-general: 'Montserrat', sans-serif;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -21,16 +20,10 @@ a {
 .cabecera {
     font-family: var(--texto-general);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-}
-
-.cabecera-contenedor {
-    display: flex;
-    width: 30vh;
-    /* width: 64rem;
-    height: 8rem; */
 }
 
 .logo {
@@ -44,19 +37,32 @@ a {
 .logo img {
     width: 8rem;
     height: 8rem;
-
 }
 
 .menu {
     width: 50%;
 }
 
-.menu a {
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 0.75rem;
-    padding-right: 30px;
+.menu .lista_cabecera {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
 }
+
+.menu a {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 0.75rem;
+    padding-right: 20px;
+    margin: 8px;
+}
+
+.menu a:hover{
+    color: #97B3A5;
+}
+
+
 
 @media (min-width: 320px) and (max-width: 479px) {
     header {
