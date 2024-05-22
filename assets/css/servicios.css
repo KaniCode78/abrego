@@ -48,27 +48,20 @@ a {
 .img-ser {
     width: 35.125rem;
     height: 35.6875rem;
+    border-radius: 12px;
 }
 
-.opciones-servicios .text-venta {
+.opciones-servicios .text-venta, .text-renta{
     width: 35.125rem;
     position: absolute;
     font-size: 3rem;
     font-weight: 400;
     top: 80%;
     align-items: center;
-    background-color: #D9D9D9;
+    background-color: #97B3A5;
+    
 }
 
-.opciones-servicios .text-renta {
-    width: 35.125rem;
-    position: absolute;
-    font-size: 3rem;
-    font-weight: 400;
-    top: 80%;
-    align-items: center;
-    background-color: #D9D9D9;
-}
 
 
 /* Medias  */
