@@ -43,11 +43,14 @@
 
 .mySlides .img-des {
     background-size: cover;
-    height: 600px;
-    width: 500px;
+    width: 100vh;
+    height: 70vh;
     border-radius: 12px;
 }
 
+.img-des{
+    width: 100%;
+}
 
 
 /* Next & previous buttons */
@@ -65,6 +68,9 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    -webkit-user-select: none;
+
+
 }
 
 /* Position the "next button" to the right */
@@ -140,19 +146,21 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
-    .text_desarrollo h1 {
-        font-size: 1.5rem;
+@media (min-width: 320px) and (max-width: 800px) {
+    
+    .desarrollos .text_desarrollos {
+        font-size: 2rem;
+       padding: 10px;
     }
 
     .text {
-        font-size: .75rem;
+        font-size: 1rem;
     }
 
     .mySlides .img-des {
-        background-size: cover;
-        height: 300px;
-        width: 200px;
+       
+        width: 40vh;
+        height: 30vh;
     }
 
 }
