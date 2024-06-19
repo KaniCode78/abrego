@@ -5,7 +5,6 @@
 }
 
 :root {
-
     --texto-general: 'Montserrat', sans-serif;
 }
 
@@ -17,8 +16,11 @@
     justify-content: center;
 }
 
-.contacto h1 {
+.contacto h2 {
     text-align: center;
+    font-family: var(--texto-general);
+    font-size: 1.85rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -131,9 +133,9 @@ input[type="submit"]:hover {
 
 @media (min-width: 320px) and (max-width: 479px) {
 
-    .contacto #text-contacto {
-
+    .contacto h2 {
         font-size: 1.3rem;
+        line-height: 2rem;
     }
 
     .formulario-principal {
@@ -142,9 +144,9 @@ input[type="submit"]:hover {
         flex-direction: column;
     }
 
-    .formulario-principal h1 {
+    /* .formulario-principal h2 {
         font-size: 1rem;
-    }
+    } */
 
     .formulario {
         display: flex;
